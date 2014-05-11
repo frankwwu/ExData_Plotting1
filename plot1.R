@@ -16,7 +16,7 @@ plot1<-function(fileName) {
     hist(data$Global_active_power, col='red', xlab='Global Active Power (kilowatts)', main="Global Active Power")
     
     ## Copy the image from the window to the png file
-    dev.copy(png, file="plot-y.png")
+    dev.copy(png, file="plot1.png")
     
     ## Turn off the device
     dev.off()
